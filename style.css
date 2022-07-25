@@ -168,6 +168,13 @@ nav .nav-links ul {
   display: flex;
 
 }
+
+@media only screen and (max-width: 1024px) {
+  .ci {
+    width: 150px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   nav .nav-contact ul {
     flex-flow: column;
